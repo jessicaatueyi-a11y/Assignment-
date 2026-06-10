@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Skills Academy - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">DSA</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Master Digital Skills</h1>
+            <p>Transform your career with cutting-edge training in web development, data science, and digital marketing</p>
+            <a href="courses.html" class="btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <section id="welcome">
+        <div class="container">
+            <h2>Welcome to Digital Skills Training Academy</h2>
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto 3rem;">We empower individuals with practical digital skills to thrive in today's technology-driven world.</p>
+            
+            <div class="courses-grid">
+                <div class="course-card">
+                    <img src="https://picsum.photos/id/1015/400/200" alt="Web Development Class">
+                    <div class="course-info">
+                        <h3>Web Development</h3>
+                        <p>Build modern, responsive websites.</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <img src="https://picsum.photos/id/106/400/200" alt="Data Science">
+                    <div class="course-info">
+                        <h3>Data Science</h3>
+                        <p>Analyze data and extract insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Digital Skills Academy</h3>
+                <p>Empowering the next generation of digital professionals.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul style="list-style: none;">
+                    <li><a href="about.html" style="color: #ddd; text-decoration: none;">About Us</a></li>
+                    <li><a href="courses.html" style="color: #ddd; text-decoration: none;">Courses</a></li>
+                    <li><a href="contact.html" style="color: #ddd; text-decoration: none;">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact Info</h4>
+                <p>📍 123 Tech Street, Innovation City</p>
+                <p>📞 +1 (555) 123-4567</p>
+                <p>✉️ info@digitalskills.academy</p>
+            </div>
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <a href="https://twitter.com" target="_blank">𝕏</a>
+                <a href="https://linkedin.com" target="_blank">in</a>
+                <a href="https://facebook.com" target="_blank">FB</a>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #444;">
+            &copy; 2026 Digital Skills Academy. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
